@@ -1,6 +1,7 @@
 import { ArrowRightIcon, ArrowTopRightOnSquareIcon, ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Massi Tighdine</a></h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Alternant développeur full-stack</h2>
-            <p className="mt-4 max-w-xs leading-normal">En recherche d'une alternance de développeur full-stack de 14 mois <br />Début : Septembre 2024 <br /> Rythme : 3 semaines entreprise / 1 semaine école
+            <p className="mt-4 max-w-xs leading-normal">En recherche d&#39;une alternance de développeur full-stack de 14 mois <br />Début : Septembre 2024 <br /> Rythme : 3 semaines entreprise / 1 semaine école
             </p>
 
             <nav className="nav hidden lg:block">
@@ -53,7 +54,7 @@ export default function Home() {
         {/* Liens utiles */}
           <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
             <li className="mr-5 text-xs shrink-0">
-                <a className="block hover:text-slate-200" href="https://github.com/MassiTgh?tab=repositories" target="_blank" rel="noreferrer noopener" aria-label="GitHub (s'ouvre sur un nouvel onglet)" title="GitHub">
+                <a className="block hover:text-slate-200" href="https://github.com/MassiTgh?tab=repositories" target="_blank" rel="noreferrer noopener" aria-label="GitHub (ouvre un nouvel onglet)" title="GitHub">
                   <span className="sr-only">Lien GitHub</span>
                   <FaGithub className="h-6 w-6" aria-hidden="true"/>
                 </a>
@@ -85,14 +86,14 @@ export default function Home() {
               {/* Mobile responsive */}
               <p className="mb-4">Actuellement en formation de développeur web full-stack à la
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.webacademie.org/" target="_blank" rel="noreferrer noopener" aria-label="Web academie (ouvre un nouvel onglet)"> Web@cademie &#123;EPITECH&#125;</a>
-                , je suis à la recherche d'une alternance de 14 mois à partir de Septembre 2024. <br />
+                , je suis à la recherche d&#39;une alternance de 14 mois à partir de Septembre 2024. <br />
                 Je suis en mesure de développer un site internet complet et souhaite développer mes compétences en Front-end 
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://fr.legacy.reactjs.org/" target="_blank" rel="noreferrer noopener" aria-label="React (ouvre un nouvel onglet)"> (Next.Js/ReactJS)</a>
                 , développement mobile 
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://reactnative.dev/" target="_blank" rel="noreferrer noopener" aria-label="React Native (ouvre un nouvel onglet)"> (React Native) </a>
                 ou encore en Back-end
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.djangoproject.com/" target="_blank" rel="noreferrer noopener" aria-label="Django (ouvre un nouvel onglet)"> (Django)</a>.<br />
-                Je suis à l'écoute de propositions d'entretien en vue d'un alternance.
+                Je suis à l&#39;écoute de propositions d&#39;entretien en vue d&#39;un alternance.
               </p>
             </section>
 
@@ -142,7 +143,7 @@ export default function Home() {
                         </span>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Formation professionnelle pour l'obtention d'une autorisation ECSR à l'aide de mise en situation comme l'animation de cours de code ou de conduite.
+                        Formation professionnelle pour l&#39;obtention d&#39;une autorisation ECSR à l&#39;aide de mise en situation comme l&#39;animation de cours de code ou de conduite.
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Enseignement</div></li>
@@ -167,7 +168,7 @@ export default function Home() {
                         </span>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Baccalauréat technologique : Sciences et technologies de l'industrie et du développement durable, options SIN (Systèmes d'informations et numériques)
+                        Baccalauréat technologique : Sciences et technologies de l&#39;industrie et du développement durable, options SIN (Systèmes d&#39;informations et numériques)
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Gestion de projets</div></li>
@@ -231,9 +232,9 @@ export default function Home() {
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Gestion du stress</div></li>
-                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Patience et capacités d'adaptation</div></li>
-                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Connaissances mécanique d'un véhicule</div></li>
-                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Bon sens de l'observation</div></li>
+                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Patience et capacités d&#39;adaptation</div></li>
+                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Connaissances mécanique d&#39;un véhicule</div></li>
+                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Bon sens de l&#39;observation</div></li>
                       </ul>
                     </div>
                   </a>
@@ -255,7 +256,7 @@ export default function Home() {
                         Prospection commercial auprès de particulier et professionnels afin de leur proposer les offres les plus compétitives par rapport à leur besoin.
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
-                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Gestion d'un porte feuille client</div></li>
+                        <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Gestion d&#39;un porte feuille client</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Travail en équipe</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Sens de la communication</div></li>
                       </ul>
@@ -295,7 +296,7 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Projet consistant à reproduire le jeu de plateau classique Puissance 4 en tant que module JavaScript. Le module JavaScript pourra alors être importé et utilisé dans un autre fichier JavaScript, ce qui permettra d'intégrer facilement le jeu dans diverses applications web. </p>
+                    <p className="mt-2 text-sm leading-normal">Projet consistant à reproduire le jeu de plateau classique Puissance 4 en tant que module JavaScript. Le module JavaScript pourra alors être importé et utilisé dans un autre fichier JavaScript, ce qui permettra d&#39;intégrer facilement le jeu dans diverses applications web. </p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Modules JavaScript</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">POO en JavaScript</div></li>
@@ -303,8 +304,8 @@ export default function Home() {
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
                     </ul>
                   </div>
-                  <img alt="En maintenance" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="CV.pdf"/>
-                </div>
+                  <Image alt="En maintenance" loading="lazy" width={200} height={48} decoding="async" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="" />
+                  </div>
               </li>
 
               <li className="mb-12">
@@ -319,14 +320,14 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Création d'un site web pour un cinéma avec une partie utilisateur/client et une partie admin permettant d'ajouter et supprimer des films à l'affiche (parmis ceux présent dans la base de donées)</p>
+                    <p className="mt-2 text-sm leading-normal">Création d&#39;un site web pour un cinéma avec une partie utilisateur/client et une partie admin permettant d&#39;ajouter et supprimer des films à l&#39;affiche (parmis ceux présent dans la base de donées)</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">PHP</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">MySql</div></li>
                     </ul>
                   </div>
-                  <img alt="En maintenance" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="CV.pdf"/>
+                  <Image alt="En maintenance" loading="lazy" width={200} height={48} decoding="async" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="" />
                 </div>
               </li>
 
@@ -342,14 +343,14 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Création d'un site de rencontre inspiré du site "Meetic" pour consolider les stack HTML/CSS et PHP avec l'ajout de resctriction comme l'utilisation de POO (Programmation orientée objet) en PHP et l'implémentation d'un carousselle pour l'affichage des autres membres</p>
+                    <p className="mt-2 text-sm leading-normal">Création d&#39;un site de rencontre inspiré du site "Meetic" pour consolider les stack HTML/CSS et PHP avec l&#39;ajout de resctriction comme l&#39;utilisation de POO (Programmation orientée objet) en PHP et l&#39;implémentation d&#39;un carousselle pour l&#39;affichage des autres membres</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">PHP POO </div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">JavaScript</div></li>
                     </ul>
                   </div>
-                  <img alt="En maintenance" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="CV.pdf"/>
+                  <Image alt="En maintenance" loading="lazy" width={200} height={48} decoding="async" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="" />
                 </div>
               </li>
 
@@ -365,14 +366,14 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Initiation au framework React avec l'appel et affichage d'une API pour l'utilisateur</p>
+                    <p className="mt-2 text-sm leading-normal">Initiation au framework React avec l&#39;appel et affichage d&#39;une API pour l&#39;utilisateur</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">ReactJs</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Node.Js</div></li>
                     </ul>
                   </div>
-                  <img alt="" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="./spotify.png"/>
+                  <Image alt="Screen Spotify" loading="lazy" width={200} height={48} decoding="async" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="/spotify.png" />
                 </div>
               </li>
 
@@ -388,14 +389,14 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Projet personnel de création d'un blog multilingue (i18n) sur un nouveau framework (Django)</p>
+                    <p className="mt-2 text-sm leading-normal">Projet personnel de création d&#39;un blog multilingue (i18n) sur un nouveau framework (Django)</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Python</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">SQLite</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Pip</div></li>
                     </ul>
                   </div>
-                  <img alt="Implémentation du CSS en cour" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src=""/>
+                  <Image alt="Implémentation du CSS en cour" loading="lazy" width={200} height={48} decoding="async" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="" />
                 </div>
               </li>
             </ol>
