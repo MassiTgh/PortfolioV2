@@ -343,7 +343,7 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Création d&#39;un site de rencontre inspiré du site "Meetic" pour consolider les stack HTML/CSS et PHP avec l&#39;ajout de resctriction comme l&#39;utilisation de POO (Programmation orientée objet) en PHP et l&#39;implémentation d&#39;un carousselle pour l&#39;affichage des autres membres</p>
+                    <p className="mt-2 text-sm leading-normal">Création d&#39;un site de rencontre inspiré du site &#34;Meetic&#34; pour consolider les stack HTML/CSS et PHP avec l&#39;ajout de resctriction comme l&#39;utilisation de POO (Programmation orientée objet) en PHP et l&#39;implémentation d&#39;un carousselle pour l&#39;affichage des autres membres</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">PHP POO </div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
