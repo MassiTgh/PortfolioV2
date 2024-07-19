@@ -93,10 +93,11 @@ export default function Home() {
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://reactnative.dev/" target="_blank" rel="noreferrer noopener" aria-label="React Native (ouvre un nouvel onglet)"> (React Native) </a>
                 ou encore en Back-end
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.djangoproject.com/" target="_blank" rel="noreferrer noopener" aria-label="Django (ouvre un nouvel onglet)"> (Django)</a>.<br />
-                Je suis à l&#39;écoute de propositions d&#39;entretien en vue d&#39;un alternance.
+                Je suis à l&#39;écoute de propositions d&#39;entretiens en vue d&#39;une alternance.
               </p>
             </section>
 
+          {/* Section Formations */}
           <section id="formations" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             {/* Mobile responsive */}
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
@@ -182,6 +183,7 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Section Expériences */}
           <section id="experiences" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             {/* Mobile responsive */}
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
@@ -203,7 +205,7 @@ export default function Home() {
                         </span>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Départ de la formation avec La Piscine (4 semaines de programmation intense) qui se poursuit avec des 9 mois de projets seul ou en groupe.
+                        Départ de la formation avec La Piscine (4 semaines de programmation intense) qui se poursuit avec 9 mois de projets seul ou en groupe.
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Test unitaires</div></li>
@@ -228,7 +230,7 @@ export default function Home() {
                         </span>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                      Accompagnement des élèves de leurs premières heures de conduite à leur passage de l’examen de conduite
+                      Accompagnement des élèves de leurs premières heures de conduite à leur passage de l’examen de conduite.
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Gestion du stress</div></li>
@@ -253,7 +255,7 @@ export default function Home() {
                         </span>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Prospection commercial auprès de particulier et professionnels afin de leur proposer les offres les plus compétitives par rapport à leur besoin.
+                        Prospection commercial auprès de particuliers et professionnels afin de leur proposer les offres les plus compétitives en fonction de leurs besoins.
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="compétences développées">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Gestion d&#39;un porte feuille client</div></li>
@@ -277,6 +279,7 @@ export default function Home() {
             {/* Lien vers CV */}
           </section>
 
+          {/* Section Projets */}
           <section id="projets" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             {/* Mobile responsive */}
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
@@ -320,7 +323,7 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Création d&#39;un site web pour un cinéma avec une partie utilisateur/client et une partie admin permettant d&#39;ajouter et supprimer des films à l&#39;affiche (parmis ceux présent dans la base de donées)</p>
+                    <p className="mt-2 text-sm leading-normal">Création d&#39;un site web pour un cinéma, avec une partie utilisateur/client et une partie admin permettant d&#39;ajouter et supprimer des films à l&#39;affiche (parmis ceux présent dans la base de données)</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">PHP</div></li>
@@ -366,7 +369,7 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Initiation au framework React avec l&#39;appel et affichage d&#39;une API pour l&#39;utilisateur</p>
+                    <p className="mt-2 text-sm leading-normal">Initiation au framework React avec l&#39;appel et l&#39;affichage d&#39;une API pour l&#39;utilisateur</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML5/CSS3</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">ReactJs</div></li>
@@ -389,7 +392,7 @@ export default function Home() {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">Projet personnel de création d&#39;un blog multilingue (i18n) sur un nouveau framework (Django)</p>
+                    <p className="mt-2 text-sm leading-normal">Projet personnel de création d&#39;un blog multilingue (i18n) sur le framework (Django)</p>
                     <ul className="mt-2 flex flex-wrap" aria-label="langages utilisés">
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Python</div></li>
                         <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">SQLite</div></li>
