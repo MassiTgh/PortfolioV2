@@ -11,8 +11,8 @@ export default function Home() {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Massi Tighdine</a></h1>
-            <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Alternant développeur full-stack</h2>
-            <p className="mt-4 max-w-xs leading-normal">En recherche d&#39;une alternance de développeur full-stack de 14 mois <br />Début : Septembre 2024 <br /> Rythme : 3 semaines entreprise / 1 semaine école
+            <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Technicien helpdesk / systèmes et réseaux</h2>
+            <p className="mt-4 max-w-xs leading-normal">En recherche d&#39;un stage de technicien helpdesk / systèmes et réseaux <br />Début : 1er Février 2027 <br /> Fin : 5 Mars 2027
             </p>
 
             <nav className="nav hidden lg:block">
@@ -78,6 +78,7 @@ export default function Home() {
         </header>
 
         <main className="pt-24 lg:w-1/2 lg:py-24">
+          {false && (
             <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
               {/* Mobile responsive */}
               <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
@@ -96,6 +97,20 @@ export default function Home() {
                 Je suis à l&#39;écoute de propositions d&#39;entretiens en vue d&#39;une alternance.
               </p>
             </section>
+          )}
+          <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+            {/* Mobile responsive */}
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">A propos</h2>
+            </div>
+            {/* Mobile responsive */}
+            <p className="mb-4">Moniteur auto-école depuis 2022, je me réoriente aujourd&#39;hui vers les<span className="font-medium text-slate-200"> systèmes et réseaux</span>, un domaine qui me parle depuis mon Bac STI2D.<br />
+              J&#39;ai également une première expérience en développement full-stack (BAC+2, titre RNCP niveau 5 —
+              <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.webacademie.org/" target="_blank" rel="noreferrer noopener" aria-label="Web academie (ouvre un nouvel onglet)"> Web@cademie &#123;EPITECH&#125;</a>
+              ), où j&#39;ai créé des programmes de tri, organisé des projets (Trello / Figma) et rédigé cahiers des charges et tests unitaires.<br />
+              Je recherche un stage d&#39;un mois et une semaine pour continuer à apprendre et apporter mon sérieux à votre équipe.
+            </p>
+          </section>
 
           {/* Section Formations */}
           <section id="formations" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
