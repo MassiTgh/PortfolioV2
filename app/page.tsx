@@ -284,7 +284,7 @@ export default function Home() {
             </div>
             {/* Lien vers CV */}
             <div className="mt-12">
-              <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="./CV.pdf" target="_blank" rel="noreferrer noopener" aria-label="lien ver le CV (ouvre un nouvel onglet)">
+              <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="./CV Massi.pdf" target="_blank" rel="noreferrer noopener" aria-label="lien ver le CV (ouvre un nouvel onglet)">
                 <span>Voir le <span className="inline-flex items-center">CV
                   <ArrowTopRightOnSquareIcon className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none ml-1" aria-hidden="true" />
                   </span>
